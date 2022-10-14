@@ -1,0 +1,16 @@
+def fizz_buzz():
+    sum=0  # i removed string as we just have to print it
+    for i in range(1, 100): #calculating sum from 1 to 100 
+        if ((i % 3)==0 or (i % 5)== 0):
+            sum+=i
+        #printing result
+        if ((i % 3)==0 and (i % 5)== 0):
+            print("FizzBuzz") #This prints out FizzBuzz with every 3 and 5 comments
+        elif  (i% 5) == 0:
+            print("Buzz") # prints "Buzz" 
+        elif  (i% 3) == 0:
+            print("Fizz") #prints"Fizz" 
+        else:
+            print(i)
+        
+    return sum
