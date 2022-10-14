@@ -1,0 +1,3 @@
+def fizz_buzz():
+sum=0   #i removed string as we only have to print it
+for i in range(1,00) 
